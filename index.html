@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <title>Product Landing Page</title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Catamaran', sans-serif;
+    background-color:#dcdde1;
+    margin: 40px;
+    line-height: 1.6;
+}
+img{
+   margin-top:40px;
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #7f8fa6;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right:0;
+    top:0;
+}
+.nav_link{
+    color:#ffffff;
+    text-decoration: solid;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.container{
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    justify-content: center;
+}
+h1{
+    margin-bottom: 0px;
+}
+h1+p{
+    margin-top: 0px;
+}
+.header-l{
+width: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.header-r{
+width:100%;
+padding-left: 15px;
+margin-bottom: 20px;
+}
+.ext{
+    padding:10px;
+    border-radius: 4px;
+    text-decoration: solid;
+    background-color:#2f3542;
+    color:#ffffff;
+    font-family: inherit;
+}
+section{
+    margin-top: 40px;
+  
+}
+.features{
+    box-shadow: 2px 2px 8px rgba(0.1,0.1,0.1,0.1);
+    width:30%;
+    padding:10px;
+    margin:10px 1.5%;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #dfe6e9;
+}
+.features img{
+    padding: 0%;
+}
+.features h2{
+   margin-top: 5px;
+    font-size:20px;
+}
+.features p{
+    font-size: 15px;
+    line-height: 1.6;
+}
+.nusltr{
+    background-color: #2d3436;
+    color:#dfe6e9;
+}
+iframe{
+    max-width: 85%;
+}
+form input{
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #2c3e50;
+    margin-top: 10px;
+    padding:10px;
+    text-align: center;
+    color:#ffffff;
+    text-decoration: solid;
+}
+@media(max-width:480px){
+.header-r,.header-r{
+    width:100%; 
+}
+.header-r{
+    text-align:center;
+    padding-right:15px;
+}
+.features{
+    margin:10px;
+    width: 100%;
+}
+}
+    </style>
+    <body>
+<header id="header">
+    <nav id="nav-bar">
+       <a href="#about" class="nav_link">About </a>
+       <a href="#features" class="nav_link">Features</a>
+       <a href="#videocls" class="nav_link">Video</a>
+       <a href="#newsletter" class="nav_link">NewsLetter</a>
+    </nav>
+    <section id=about>
+    <div class="container">
+        <div class="header-l">
+            <img id="header-img" src="http://www.sparkawards.com/wp-content/uploads/2011/05/Product_Lg_Type.jpg" alt="This is a Chair Logo">
+        </div>
+        <div class="header-r" >
+        <h1>Chairs</h1>
+        <p>A chair's function is not just to provide 
+            a place to sit; it is to provide a medium 
+            for self-expression. Chairs are about status,
+            for example. Or signalling something about oneself.
+            That's why the words chair, seat and bench have found
+            themselves used to describe high status professions, 
+            from academia to Parliament to the law.</p>
+    <a class="ext" href="https://www.target.com/c/chairs-living-room-furniture/-/N-5xtlz">Find a chair for every space, style & budget</a>
+        </div>
+    </div>
+</section>
+</header>
+<section id=features>
+<div class="container">
+    <div class="features">
+        <img src="http://www.theestatesga.com/img_upload/lo/armchairs-recliner-chairs-ikea_modern-outdoor-ideas.jpg"
+         alt="Picture of a Armchair">
+        <h2>Arm Chairs</h2>
+        <p>Add a touch of elegance and personality to your 
+            room with an upholstered arm chair.
+            A well-placed arm chair can create an engaging 
+            conversation space or a relaxing reading nook,
+            in materials ranging from leather to velvet.</p>
+    </div>
+    <div class="features">
+        <img src="https://d9dvmj2a7k2dc.cloudfront.net/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/8/0/8081cg.jpg" 
+        alt="Picture of a Recliner Chair">
+        <h2>Recliner Chairs</h2>
+        <p>This just in: The recliner has 
+            gotten a stylish makeover. The newest styles 
+            feature clean lines & sophisticated fabrics. 
+            But don’t worry—this classic style is still 
+            as comfortable & laidback as ever.</p>
+    </div>
+    <div class="features">
+       <img src="http://cdn.decoist.com/wp-content/uploads/2016/03/CH07-Shell-Chair.jpg"
+         alt="picture of chair">
+        <h2>Chairs Under $200</h2>
+        <p>Find upholstered seating for every room on
+            a budget, in styles ranging from traditional 
+            to mid-century modern. These affordable accent 
+            chairs prove you don’t have to spend a lot for
+            great style, quality and comfort.</p>
+    </div>
+</div>
+</section>
+
+<section id="videocls">
+<div class="container">
+    <iframe id="video" width="560" height="315"
+     src="https://www.youtube.com/embed/MEkrHXJKraQ"
+      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+</div>
+</section>
+<section id="newsletter" class="nusltr">
+    <div class="container">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h2>Sign-up for our weekly NewsLetter</h2>
+            <input id="email" name="email" type="email" placeholder="Enter your email">
+        <input id="submit" class="ext" type="submit" value="Let's get Started">
+        </form>
+    </div>    
+
+</section>
+    </body>
+    <footer>This is a sample Product Landing Page</footer>
+</html>
